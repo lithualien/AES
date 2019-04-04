@@ -1,23 +1,29 @@
 package decryption;
 
+import converter.HexToString;
 import first.TransformDecr;
 import key.AddKey;
 import key.KeyExpansion;
 import second.MixColumnsForDecr;
 import third.MultiplicationForDecr;
 
-public class Decrypt {
-    KeyExpansion keyExpansion = new KeyExpansion();
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
+public class Decrypt {
+    private KeyExpansion keyExpansion = new KeyExpansion();
     private AddKey addKey = new AddKey();
     private MixColumnsForDecr mixColumnsForDecr = new MixColumnsForDecr();
     private MultiplicationForDecr multiplicationForDecr = new MultiplicationForDecr();
     private TransformDecr transformDecr = new TransformDecr();
+    private HexToString hexToString = new HexToString();
+    private int[] hexMessage = new int[16];
 
-    public void decryptToHex(int[] message, int[] key) {
+    public String decryptToHex(int[] key) throws IOException {
         int[] allKeys = keyExpansion.expansionKeyGeneration(key);
-        int[] hexMessage = message;
-
+        setHexMessage();
         int[] tempKey = new int[16];
 
         System.arraycopy(allKeys, 160, tempKey, 0, 16);
@@ -38,13 +44,20 @@ public class Decrypt {
 
         hexMessage = addKey.getHexMessage(hexMessage, key);
 
-        System.out.print("\n");
+        return hexToString.toString(hexMessage);
+    }
+
+    private String readFile(String path) throws IOException
+    {
+        byte[] encoded = Files.readAllBytes(Paths.get(path));
+        return new String(encoded, StandardCharsets.UTF_8);
+    }
+
+    private void setHexMessage() throws IOException {
+        String[] temp = readFile("AES.txt").split(" ");
 
         for(int i = 0; i < 16; i++) {
-            System.out.print(Integer.toHexString(hexMessage[i]) + " ");
-            if(i == 3 || i == 7 || i == 11 || i == 15) {
-                System.out.println();
-            }
+            hexMessage[i] = Integer.parseInt(temp[i], 16);
         }
 
     }

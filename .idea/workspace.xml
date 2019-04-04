@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/AES.java" line="21" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="71675102-95c7-4295-8b0d-aa02c171ef4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/decryption/Decrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/encryption/Encrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first/TransformDecr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/key/AddKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/key/KeyExpansion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second/MixColumnsForDecr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/third/MultiplicationForDecr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/MainWindow.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AES/AES.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/AES.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AES/converter/HexToDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/converter/HexToDecimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AES/converter/HexToDecimal.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AES/converter/StringToHex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/converter/StringToHex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AES/first/SBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AES/first/TransformEnc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/first/TransformEnc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AES/matrix/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/matrix/Matrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AES/second/MixColumnsForEnc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/second/MixColumnsForEnc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AES/third/MultiplicationForEnc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/third/MultiplicationForEnc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AES/decryption/Decrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/decryption/Decrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AES/encryption/Encrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AES/encryption/Encrypt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/converter/HexToDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/HexToDecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/converter/HexToDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/HexToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/converter/StringToHex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/StringToHex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/SBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/TransformEnc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/TransformEnc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrix/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second/MixColumnsForEnc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second/MixColumnsForEnc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third/MultiplicationForEnc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third/MultiplicationForEnc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decryption/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decryption/Decrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/encryption/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/encryption/Encrypt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AES.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,10 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/encryption/Encrypt.java">
+        <entry file="file://$PROJECT_DIR$/src/decryption/Decrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="59" />
+            <state relative-caret-position="544">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +65,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/decryption/Decrypt.java">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state relative-caret-position="229">
+              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/encryption/Encrypt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,16 +91,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/key/KeyExpansion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-              <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/gui/MainWindow.form">
+          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -133,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/converter/HexToBinary.java" />
         <option value="$PROJECT_DIR$/src/first/SBox.java" />
         <option value="$PROJECT_DIR$/src/converter/HexToDecimal.java" />
-        <option value="$PROJECT_DIR$/src/converter/StringToHex.java" />
         <option value="$PROJECT_DIR$/src/third/MultiplicationForEnc.java" />
         <option value="$PROJECT_DIR$/src/fourth/XORMessageAndKey.java" />
         <option value="$PROJECT_DIR$/src/third/MultiplicationForDecr.java" />
@@ -146,9 +137,14 @@
         <option value="$PROJECT_DIR$/src/matrix/Matrix.java" />
         <option value="$PROJECT_DIR$/src/key/KeyExspansion.java" />
         <option value="$PROJECT_DIR$/src/key/KeyExpansion.java" />
+        <option value="$PROJECT_DIR$/src/converter/StringToHex.java" />
+        <option value="$PROJECT_DIR$/src/converter/HexToString.java" />
         <option value="$PROJECT_DIR$/src/encryption/Encrypt.java" />
+        <option value="$PROJECT_DIR$/src/gui/mainWindow.form" />
+        <option value="$PROJECT_DIR$/src/gui/mainWindow.java" />
         <option value="$PROJECT_DIR$/src/AES.java" />
         <option value="$PROJECT_DIR$/src/decryption/Decrypt.java" />
+        <option value="$PROJECT_DIR$/src/gui/MainWindow.java" />
       </list>
     </option>
   </component>
@@ -158,10 +154,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-6" />
-    <option name="y" value="-1" />
-    <option name="width" value="1156" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="4" />
+    <option name="width" value="1777" />
     <option name="height" value="968" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -211,6 +206,19 @@
               <item name="AES" type="b2602c69:ProjectViewProjectNode" />
               <item name="AES" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AES" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="MainWindow" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="AES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AES" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="key" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554404887955" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554411197676" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -287,15 +295,15 @@
       <updated>1554294227070</updated>
       <workItem from="1554294230282" duration="17764000" />
       <workItem from="1554315133906" duration="10536000" />
-      <workItem from="1554374664167" duration="22280000" />
+      <workItem from="1554374664167" duration="28066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50580000" />
+    <option name="totallyTimeSpent" value="56366000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10501066" />
@@ -307,7 +315,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49543795" weight="0.32934132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.2915327" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49307036" visible="true" weight="0.32475883" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,8 +324,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.2915327" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4978678" weight="0.3676313" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50692964" side_tool="true" visible="true" weight="0.32475883" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49598163" weight="0.3269461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -351,31 +359,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/converter/HexToDecimal.java">
+    <entry file="file://$PROJECT_DIR$/src/fourth/XORMessageAndKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/converter/StringToHex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/second/MixColumnsForEnc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first/TransformEnc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -386,6 +373,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/first/TransformEnc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/key/AddKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -393,10 +387,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fourth/XORMessageAndKey.java">
+    <entry file="file://$PROJECT_DIR$/src/key/KeyExpansion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="476">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matrix/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -407,17 +412,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/third/MultiplicationForEnc.java">
+    <entry file="file://$PROJECT_DIR$/src/second/MixColumnsForEnc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrix/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        <state relative-caret-position="544">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -428,31 +426,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/key/KeyExpansion.java">
+    <entry file="file://$PROJECT_DIR$/src/third/MultiplicationForEnc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="131">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/converter/HexToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/converter/StringToHex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainWindow.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AES.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/encryption/Encrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="59" />
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -461,10 +462,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/decryption/Decrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        <state relative-caret-position="544">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encryption/Encrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
