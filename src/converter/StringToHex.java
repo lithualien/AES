@@ -5,7 +5,7 @@ public class StringToHex {
         char[] temp = message.toCharArray();
         StringBuilder hex = new StringBuilder();
         for (char ch : temp) {
-            hex.append(Integer.toHexString((int) ch));
+            hex.append(Integer.toHexString((int) ch)).append(" ");
         }
         return hex.toString();
     }
