@@ -47,14 +47,14 @@ public class Decrypt {
         return hexToString.toString(hexMessage);
     }
 
-    private String readFile(String path) throws IOException
+    private String readFile() throws IOException
     {
-        byte[] encoded = Files.readAllBytes(Paths.get(path));
+        byte[] encoded = Files.readAllBytes(Paths.get("AES.txt"));
         return new String(encoded, StandardCharsets.UTF_8);
     }
 
     private void setHexMessage() throws IOException {
-        String[] temp = readFile("AES.txt").split(" ");
+        String[] temp = readFile().split(" ");
 
         for(int i = 0; i < 16; i++) {
             hexMessage[i] = Integer.parseInt(temp[i], 16);

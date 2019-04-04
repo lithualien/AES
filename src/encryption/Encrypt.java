@@ -21,7 +21,7 @@ public class Encrypt {
 
     private int[] hexMessage = new int[16];
 
-    public int[] encryptToAES(String message, int[] key) throws IOException {
+    public void encryptToAES(String message, int[] key) throws IOException {
         setHexMessage(message);
         int[] allKeys = keyExpansion.expansionKeyGeneration(key);
         hexMessage = addKey.getHexMessage(hexMessage, key);
@@ -43,13 +43,6 @@ public class Encrypt {
             hexMessage = addKey.getHexMessage(hexMessage, tempKey);
         }
 
-        for(int i = 0; i < 16; i++) {
-            //System.out.print(Integer.toHexString(hexMessage[i]) + " ");
-            if(i == 3 || i == 7 || i == 11 || i == 15) {
-               // System.out.println();
-            }
-        }
-
         BufferedWriter writer = new BufferedWriter(new FileWriter("AES.txt"));
 
         for(int i = 0; i < 16; i++) {
@@ -58,7 +51,6 @@ public class Encrypt {
 
         writer.close();
 
-        return hexMessage;
     }
 
     private void setHexMessage(String message) {
