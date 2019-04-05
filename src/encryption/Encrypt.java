@@ -6,9 +6,6 @@ import key.AddKey;
 import key.KeyExpansion;
 import second.MixColumnsForEnc;
 import third.MultiplicationForEnc;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 
 public class Encrypt {
@@ -21,7 +18,7 @@ public class Encrypt {
 
     private int[] hexMessage = new int[16];
 
-    public void encryptToAES(String message, int[] key) throws IOException {
+    public int[] encryptToAES(String message, int[] key) throws IOException {
         setHexMessage(message);
         int[] allKeys = keyExpansion.expansionKeyGeneration(key);
         hexMessage = addKey.getHexMessage(hexMessage, key);
@@ -42,15 +39,7 @@ public class Encrypt {
 
             hexMessage = addKey.getHexMessage(hexMessage, tempKey);
         }
-
-        BufferedWriter writer = new BufferedWriter(new FileWriter("AES.txt"));
-
-        for(int i = 0; i < 16; i++) {
-            writer.write(Integer.toHexString(hexMessage[i]) + " ");
-        }
-
-        writer.close();
-
+        return hexMessage;
     }
 
     private void setHexMessage(String message) {

@@ -59,6 +59,5 @@ public class Decrypt {
         for(int i = 0; i < 16; i++) {
             hexMessage[i] = Integer.parseInt(temp[i], 16);
         }
-
     }
 }
